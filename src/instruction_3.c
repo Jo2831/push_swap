@@ -10,8 +10,6 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-
-
 #include "push_swap.h"
 
 int	reverse(t_list **stack)
@@ -47,7 +45,7 @@ int	rrb(t_list **stack_b)
 {
 	if (reverse(stack_b) == -1)
 		return (-1);
-	ft_putstr_fd ("rrb\n", 1);
+	ft_putstr_fd("rrb\n", 1);
 	return (0);
 }
 

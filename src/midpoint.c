@@ -14,8 +14,8 @@
 
 int	find_midpoint(t_list *stack)
 {
-	int		sum;
-	int		i;
+	int	sum;
+	int	i;
 
 	sum = 0;
 	i = 0;
@@ -40,8 +40,8 @@ void	push_to_b(t_list **stack_a, t_list **stack_b, int *total_nodes, int *i)
 
 void	send_to_b(t_list **stack_a, t_list **stack_b, int *total_nodes)
 {
-	int		mid;
-	int		i;
+	int	mid;
+	int	i;
 
 	mid = find_midpoint(*stack_a);
 	i = ((*total_nodes) / 2) + 1;

@@ -10,8 +10,6 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-
-
 #include "push_swap.h"
 
 int	swap(t_list **stack)
@@ -48,7 +46,7 @@ int	push(t_list **stack_from, t_list **stack_to)
 	if (ft_lstsize(nodetb_pushd) < 0)
 		return (-1);
 	*stack_from = nodetb_pushd->next;
-	nodetb_pushd->next = NULL; 
+	nodetb_pushd->next = NULL;
 	ft_lstadd_front(stack_to, nodetb_pushd);
 	return (0);
 }

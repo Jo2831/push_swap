@@ -61,7 +61,7 @@ t_list	*cheapest_cost(t_list **stack_a, t_list **stack_b)
 
 int	retrieve_cost_for_target(t_list *stack, int target_pos)
 {
-	t_list	*temp; 
+	t_list	*temp;
 
 	temp = stack;
 	while (temp)

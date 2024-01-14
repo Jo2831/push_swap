@@ -10,8 +10,6 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-
-
 #include "push_swap.h"
 
 void	ft_putstr_fd(char *s, int fd)
@@ -50,7 +48,7 @@ void	*ft_memset(void *str, int c, size_t len)
 	i = 0;
 	while (i < len)
 	{
-		((char *)str)[i] = (unsigned char) c;
+		((char *)str)[i] = (unsigned char)c;
 		i++;
 	}
 	return ((void *)str);

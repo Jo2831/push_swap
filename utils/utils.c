@@ -10,8 +10,6 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-
-
 #include "push_swap.h"
 
 int	check_sorted(t_list **stack_a)
@@ -30,8 +28,8 @@ int	check_sorted(t_list **stack_a)
 
 void	ft_error(void)
 {
-	write (2, "Error\n", 6);
-	exit (1);
+	write(2, "Error\n", 6);
+	exit(1);
 }
 
 int	ft_min(t_list **stack_a)

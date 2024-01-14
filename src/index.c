@@ -10,11 +10,9 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-
-
 #include "push_swap.h"
 
-void	initialise_processor(t_list	*stack_a)
+void	initialise_processor(t_list *stack_a)
 {
 	t_list	*head;
 
@@ -44,8 +42,8 @@ void	index_stack(t_list **stack_a)
 		min = NULL;
 		while (current)
 		{
-			if (current->processed == 0 && 
-				(!min || current->value < min->value))
+			if (current->processed == 0 && (!min
+					|| current->value < min->value))
 				min = current;
 			current = current->next;
 		}

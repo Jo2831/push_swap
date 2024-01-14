@@ -10,8 +10,6 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-
-
 #include "push_swap.h"
 
 int	ft_atoi(char *str, t_list **stack_a, t_list **stack_b, char **argv)

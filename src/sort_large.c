@@ -10,7 +10,6 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-
 #include "push_swap.h"
 
 void	sort_large(t_list **stack_a, t_list **stack_b)
@@ -21,7 +20,7 @@ void	sort_large(t_list **stack_a, t_list **stack_b)
 		sort_remaining(stack_a);
 }
 
-void	 sort_tatu(t_list **stack_a)
+void	sort_tatu(t_list **stack_a)
 {
 	t_list	*head;
 

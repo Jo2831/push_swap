@@ -10,8 +10,6 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-
-
 #include "push_swap.h"
 
 void	ft_lstadd_back(t_list **lst, t_list *new)
@@ -24,8 +22,8 @@ void	ft_lstadd_back(t_list **lst, t_list *new)
 		return ;
 	}
 	temp = *lst;
-	while (temp -> next)
-		temp = temp -> next;
+	while (temp->next)
+		temp = temp->next;
 	temp->next = new;
 }
 
@@ -33,8 +31,8 @@ t_list	*ft_lstlast(t_list *lst)
 {
 	if (!lst)
 		return (NULL);
-	while (lst -> next)
-		lst = lst -> next;
+	while (lst->next)
+		lst = lst->next;
 	return (lst);
 }
 
@@ -46,7 +44,7 @@ int	ft_lstsize(t_list *lst)
 	while (lst)
 	{
 		size++;
-		lst = lst -> next;
+		lst = lst->next;
 	}
 	return (size);
 }

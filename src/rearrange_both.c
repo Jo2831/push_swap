@@ -10,7 +10,6 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-
 #include "push_swap.h"
 
 void	rearrange_both(t_list **a, t_list **b, t_list *target, t_list *cheapest)
